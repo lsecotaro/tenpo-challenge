@@ -1,0 +1,39 @@
+version: '3.1'
+
+networks:
+  app-network:
+    driver: bridge
+
+services:
+  svc-challenge:
+    env_file:
+      - dev.env
+    image: lsecotaro/svc-challenge:v1
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+      - redis
+    networks:
+      - app-network
+    profiles:
+      - dev
+
+  db:
+    image: postgres
+    restart: always
+    ports:
+      - "5432:5432"
+    env_file:
+      - dev.env
+    networks:
+      - app-network
+
+  redis:
+    image: 'bitnami/redis:latest'
+    ports:
+      - "6379:6379"
+    env_file:
+      - dev.env
+    networks:
+      - app-network
