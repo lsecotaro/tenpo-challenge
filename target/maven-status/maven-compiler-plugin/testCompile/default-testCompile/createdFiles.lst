@@ -1,0 +1,6 @@
+com/lsecotaro/tenpo/svcchallenge/clients/MockPercentageClientTest.class
+com/lsecotaro/tenpo/svcchallenge/filter/RateLimitInterceptorTest.class
+com/lsecotaro/tenpo/svcchallenge/controller/ChallengeControllerTest.class
+com/lsecotaro/tenpo/svcchallenge/service/JedisCacheServiceTest.class
+com/lsecotaro/tenpo/svcchallenge/service/ChallengeServiceTest.class
+com/lsecotaro/tenpo/svcchallenge/filter/RequestCachingFilterTest.class
