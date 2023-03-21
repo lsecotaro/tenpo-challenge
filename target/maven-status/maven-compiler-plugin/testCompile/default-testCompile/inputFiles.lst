@@ -1,6 +1,0 @@
-/Users/leonardosecotaro/projects/tenpo-challenge/src/test/java/com/lsecotaro/tenpo/svcchallenge/filter/RequestCachingFilterTest.java
-/Users/leonardosecotaro/projects/tenpo-challenge/src/test/java/com/lsecotaro/tenpo/svcchallenge/service/ChallengeServiceTest.java
-/Users/leonardosecotaro/projects/tenpo-challenge/src/test/java/com/lsecotaro/tenpo/svcchallenge/service/JedisCacheServiceTest.java
-/Users/leonardosecotaro/projects/tenpo-challenge/src/test/java/com/lsecotaro/tenpo/svcchallenge/controller/ChallengeControllerTest.java
-/Users/leonardosecotaro/projects/tenpo-challenge/src/test/java/com/lsecotaro/tenpo/svcchallenge/filter/RateLimitInterceptorTest.java
-/Users/leonardosecotaro/projects/tenpo-challenge/src/test/java/com/lsecotaro/tenpo/svcchallenge/clients/MockPercentageClientTest.java
